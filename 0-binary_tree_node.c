@@ -17,7 +17,7 @@ return (NULL);
 }
 node->n = value;
 node->parent = parent;
-node->next = NULL;
-node->prev = NULL;
+node->left = NULL;
+node->right = NULL;
 return (node);
 }

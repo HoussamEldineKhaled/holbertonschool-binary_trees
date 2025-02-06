@@ -19,5 +19,5 @@ return (0);
 }
 Lsize = binary_tree_height(tree->left);
 Rsize = binary_tree_height(tree->right);
-return ((Lsize > Rsize ? Lsize : Rsize) + 1);
+ return (1 + (Lsize > Rsize ? Lsize : Rsize))
 }
